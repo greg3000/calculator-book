@@ -210,6 +210,7 @@ With the new pathway selection in place the model is recalculated and the new re
 4. Make sure all required model inputs and outputs implemented in the Excel file (see detail above)
 5. Edit data_from_model.rb with details of changes to the named ranges in the previous step
 6. Run translate_excel_into_c.rb to translate the Excel model into C
+     -PORTEGE-Z830:~/2050_2/twenty-fifty/model$ ruby translate_excel_into_c.rb 
 7. Run compile_c_version_of_excel.rb
 8. Edit the JavaSript views to reflect any desired presentational changes
 8. Run 'rackup' command from the top of the twenty-fifty directory and navigate to http://0.0.0.0:9292
